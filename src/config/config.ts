@@ -10,7 +10,7 @@ const config = {
     },
     server: {
        // url: 'http://localhost:9000'
-       url:'https://blog-chain-api.herokuapp.com/'
+       url:'https://blog-chain-api.herokuapp.com'
     }
 };
 
