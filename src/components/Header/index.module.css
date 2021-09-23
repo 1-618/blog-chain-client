@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+@font-face {
+    font-family: 'Paralines-Regular';
+    src: url(../../assets/Paralines-Regular.ttf);
+}
+@font-face {
+    font-family: 'LLBlackMatrix';
+    src: url(../../assets/LLBlackMatrix.ttf);
+}
+.intro {
+    font-size: 45px;
+    font-family: Paralines-Regular, sans-serif;
+    font-weight: bold;
+    color: #ea39b8;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+}
+.glow {
+    font-size: 100px;
+    /*font-family: LLBlackMatrix;*/
+    font-family: LLBlackMatrix, sans-serif;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+@keyframes glow {
+from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+/*"display-4 mt-5 mb-2"*/
+
+.headline {
+    font-size: 30px;
+    font-family: Nunito, sans-serif;
+    text-shadow: none !important;
+    font-weight: bold;
+    color: #ff4da6;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+}
