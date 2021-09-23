@@ -9,7 +9,8 @@ const config = {
         appId: '1:1025863584:web:e587970b30585074e77ec5'
     },
     server: {
-        url: 'http://localhost:9000'
+       // url: 'http://localhost:9000'
+       url:'https://blog-chain-api.herokuapp.com/'
     }
 };
 
